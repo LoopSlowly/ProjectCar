@@ -12,7 +12,6 @@ public class FindCars {
             }
         }
         return filteredByValue.toArray(new Car[0]);
-
     }
     public static Car[] findCarsInYears(Car[] cars, int startYear, int endYear) {
         List<Car> filteredByYearCars = new ArrayList<>();
@@ -22,6 +21,5 @@ public class FindCars {
             }
         }
         return filteredByYearCars.toArray(new Car[0]);
-
     }
 }
