@@ -2,7 +2,6 @@ package CarTask.service;
 import CarTask.model.Car;
 import java.util.ArrayList;
 import java.util.List;
-
 public class FindCars {
     public static Car[] findCarsByValue(Car[] cars, int startValue, int endValue) {
         List<Car> filteredByValue = new ArrayList<>();
